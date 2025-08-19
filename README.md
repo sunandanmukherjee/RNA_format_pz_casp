@@ -39,12 +39,12 @@ Participating in community-wide experiments like RNA-Puzzles and CASP requires s
 
 ## 📖 Recommended Usage: The Automated Pipeline
 
-The `run_pipeline.py` script is the easiest and recommended way to format your models for submission. It handles all steps automatically.
+The `formatPDB_pipeline.py` script is the easiest and recommended way to format your models for submission. It handles all steps automatically.
 
 ### Command
 
 ```bash
-python run_pipeline.py -t <template.pdb> -m <model1.pdb> <model2.pdb> ... -o <output.pdb>
+python formatPDB_pipeline.py -t <template.pdb> -m <model1.pdb> <model2.pdb> ... -o <output.pdb>
 ```
 
 ### Arguments
@@ -68,7 +68,7 @@ Let's say you are participating in an RNA-Puzzles challenge.
     Execute a single command to process all models and create a final submission file named `MySubmission.pdb`.
 
     ```bash
-    python run_pipeline.py \
+    python formatPDB_pipeline.py \
       --template PZ_TARGET_template.pdb \
       --models rank1.pdb rank2.pdb rank3.pdb \
       --output MySubmission.pdb
@@ -84,7 +84,7 @@ This repository includes an `examples/` directory containing a sample template a
 To run the example:
 ```bash
 # Navigate to the root directory of the repository
-python run_pipeline.py \
+python formatPDB_pipeline.py \
   --template examples/template.pdb \
   --models examples/model_set.pdb \
   --output examples/formatted_example_submission.pdb
