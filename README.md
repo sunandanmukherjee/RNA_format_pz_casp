@@ -1,4 +1,4 @@
-# RNA_format_pz_casp
+# rna-submission-prep
 
 <p align="center">
   <a href="https://github.com/sunandanmukherjee/RNA_format_pz_casp"><img src="https://img.shields.io/badge/GitHub-Repo-blue.svg" alt="GitHub Repo"></a>
