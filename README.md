@@ -27,8 +27,8 @@ Participating in community-wide experiments like RNA-Puzzles and CASP requires s
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/sunandanmukherjee/RNA_format_pz_casp.git
-    cd RNA_format_pz_casp
+    git clone https://github.com/sunandanmukherjee/rna-submission-prep.git
+    cd rna-submission-prep
     ```
 
 2.  **Install dependencies:**
